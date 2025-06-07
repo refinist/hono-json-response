@@ -1,4 +1,4 @@
-# Hono jsonResponse Middleware [![codecov](https://codecov.io/github/refinist/json-response/graph/badge.svg)](https://codecov.io/github/refinist/json-response)
+# Hono jsonResponse Middleware [![npm](https://img.shields.io/npm/v/@hono/json-response.svg)](https://npmjs.com/package/@hono/json-response) [![codecov](https://codecov.io/github/refinist/hono-json-response/graph/badge.svg)](https://codecov.io/github/refinist/hono-json-response)
 
 A Hono middleware for standardized JSON responses
 

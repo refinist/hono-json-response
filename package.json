@@ -31,6 +31,8 @@
     "format": "prettier --write .",
     "lint": "eslint",
     "lint:fix": "pnpm lint --fix",
+    "prepublishOnly": "pnpm run build",
+    "release": "bumpp && pnpm publish",
     "test": "vitest",
     "typecheck": "tsc -b tsconfig.json"
   },
@@ -51,10 +53,10 @@
     "hono": "*"
   },
   "packageManager": "pnpm@10.11.1",
-  "publishConfig": {
-    "access": "public"
-  },
   "engines": {
     "node": ">=20.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

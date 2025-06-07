@@ -1,6 +1,6 @@
 {
   "name": "@hono/json-response",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A Hono middleware for standardized JSON responses",
   "homepage": "https://github.com/refinist/hono-json-response",
   "repository": {

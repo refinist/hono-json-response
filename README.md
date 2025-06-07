@@ -1,4 +1,4 @@
-# Hono jsonResponse Middleware [![npm](https://img.shields.io/npm/v/@hono/json-response.svg)](https://npmjs.com/package/@hono/json-response) [![codecov](https://codecov.io/github/refinist/hono-json-response/graph/badge.svg)](https://codecov.io/github/refinist/hono-json-response)
+# Hono jsonResponse Middleware [![npm](https://img.shields.io/npm/v/hono-json-response.svg?style=flat&colorA=1B3C4A&colorB=E36002)](https://npmjs.com/package/hono-json-response) [![codecov](https://img.shields.io/codecov/c/github/refinist/hono-json-response?style=flat&colorA=1B3C4A&colorB=E36002)](https://codecov.io/github/refinist/hono-json-response)
 
 A Hono middleware for standardized JSON responses
 
@@ -35,23 +35,23 @@ return c.syserr();
 
 ```bash
 # npm
-npm install @hono/json-response
+npm install hono-json-response
 
 # yarn
-yarn add @hono/json-response
+yarn add hono-json-response
 
 # pnpm
-pnpm add @hono/json-response
+pnpm add hono-json-response
 
 # bun
-bun add @hono/json-response
+bun add hono-json-response
 ```
 
 ## Basic Usage
 
 ```typescript
 import { Hono } from 'hono';
-import { jsonResponse } from '@hono/json-response';
+import { jsonResponse } from 'hono-json-response';
 
 const app = new Hono();
 app.use('*', jsonResponse());
@@ -214,7 +214,7 @@ app.use(
 ### Add Custom Methods
 
 ```typescript
-import type { JSONResponseHandler } from '@hono/json-response';
+import type { JSONResponseHandler } from 'hono-json-response';
 
 // Don't forget to use TypeScript module augmentation to extend Context type
 declare module 'hono' {

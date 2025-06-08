@@ -30,6 +30,5 @@ jobs:
         with:
           fail_ci_if_error: true
           directory: ./coverage
-          # flags: json-response
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

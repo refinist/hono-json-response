@@ -190,7 +190,7 @@ app.get('/orders/:id', async c => {
     }
     // More business logic...
 
-    return c.jr(2000, order, 'Get order details successfully');
+    return c.ok(order, 'Get order details successfully');
   } catch (error) {
     return c.syserr(null, 'Failed to get order details');
   }

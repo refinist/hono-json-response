@@ -1,4 +1,6 @@
-# <img src="https://hono.dev/images/logo.svg" width="24" height="24" /> Hono jsonResponse Middleware [![npm](https://img.shields.io/npm/v/hono-json-response.svg?style=flat&colorA=E36002&colorB=FF9C24)](https://npmjs.com/package/hono-json-response) [![codecov](https://img.shields.io/codecov/c/github/refinist/hono-json-response?style=flat&colorA=E36002&colorB=FF9C24)](https://codecov.io/github/refinist/hono-json-response)
+# <img src="https://hono.dev/images/logo.svg" width="24" height="24" /> Hono jsonResponse Middleware
+
+[![npm](https://img.shields.io/npm/v/hono-json-response.svg?style=flat&colorA=E36002&colorB=FF9C24)](https://npmjs.com/package/hono-json-response) [![codecov](https://img.shields.io/codecov/c/github/refinist/hono-json-response?style=flat&colorA=E36002&colorB=FF9C24)](https://codecov.io/github/refinist/hono-json-response)
 
 A Hono middleware for standardized JSON responses
 

@@ -1,6 +1,6 @@
 {
   "name": "hono-json-response",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A Hono middleware for standardized JSON responses",
   "keywords": [
     "hono",

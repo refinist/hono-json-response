@@ -15,6 +15,7 @@ jobs:
       id-token: write
 
     steps:
+      # Setup JS start
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -27,6 +28,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
+
+      - name: Install dependencies
+        shell: bash
+        run: pnpm install
+      # Setup JS end
 
       - name: Generate GitHub Changelog
         run: pnpx changelogithub

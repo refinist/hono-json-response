@@ -43,7 +43,7 @@
     "lint": "eslint",
     "lint:fix": "pnpm lint --fix",
     "prepublishOnly": "pnpm run build",
-    "release": "bumpp && pnpm publish",
+    "release": "bumpp",
     "test": "vitest",
     "typecheck": "tsc -b tsconfig.json"
   },

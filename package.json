@@ -50,7 +50,7 @@
   "prettier": "@refinist/prettier-config",
   "devDependencies": {
     "@refinist/eslint-config": "^0.0.3",
-    "@refinist/prettier-config": "^0.0.4",
+    "@refinist/prettier-config": "^1.2.0",
     "@vitest/coverage-v8": "^3.2.2",
     "bumpp": "^10.1.1",
     "eslint": "^9.28.0",

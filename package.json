@@ -52,7 +52,7 @@
     "@refinist/eslint-config": "^0.0.3",
     "@refinist/prettier-config": "^0.0.4",
     "@vitest/coverage-v8": "^3.2.2",
-    "bumpp": "^10.1.1",
+    "bumpp": "^12.3.0",
     "eslint": "^9.28.0",
     "hono": "^4.7.11",
     "prettier": "^3.5.3",
